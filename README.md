@@ -90,7 +90,6 @@ GitHub Actions（`.github/workflows/ci.yml`）在推送到 `main` 以及 pull re
 ├── todo_cli.py                 # 待办命令和 JSON 读写
 ├── hello.py                    # 问候脚本
 ├── tests/                      # pytest
-├── docs/APPLICATION_NOTES.md   # 申请表短文草稿
 ├── .github/workflows/ci.yml    # CI
 ├── pyproject.toml              # 项目元数据和开发依赖
 ├── CONTRIBUTING.md
@@ -110,16 +109,6 @@ GitHub Actions（`.github/workflows/ci.yml`）在推送到 `main` 以及 pull re
 - 用 GitHub Actions 跑这些测试
 - MIT 许可证、贡献说明、以及一份针对本地工具的安全说明
 - 中英双语文档
-
-### 申请表可以怎么答
-
-短字段（大约 500 字以内）的英文草稿在 [docs/APPLICATION_NOTES.md](docs/APPLICATION_NOTES.md)。那是草稿，提交前改成你自己的说法。
-
-- **项目是什么：** 一个本地 Python 待办 CLI，用来练习开源仓库怎么组织。没有部署，也没有可引用的使用数据。
-- **为什么公开：** 让别人能克隆、跑测试、看提交记录，并对照 README 检查行为。
-- **做这个仓库时练习了什么：** argparse、JSON 文件、pytest、GitHub Actions，以及把项目状态写清楚。
-- **有没有生产用户：** 没有声称任何生产使用。
-- **别人能贡献什么：** 看 [CONTRIBUTING.md](CONTRIBUTING.md)。小的修复、测试和文档更合适。
 
 ### 还没做的事
 
@@ -217,7 +206,6 @@ GitHub Actions (`.github/workflows/ci.yml`) runs on pushes to `main` and on pull
 ├── todo_cli.py                 # todo commands and JSON storage
 ├── hello.py                    # greeting script
 ├── tests/                      # pytest
-├── docs/APPLICATION_NOTES.md   # short draft answers for application forms
 ├── .github/workflows/ci.yml    # CI
 ├── pyproject.toml              # project metadata and the dev extra
 ├── CONTRIBUTING.md
@@ -237,16 +225,6 @@ Visible in the tree:
 - GitHub Actions running those tests
 - An MIT license, a contributing guide, and a security note for a local tool
 - Bilingual docs
-
-### Short answers for an application form
-
-Paste-ready English drafts, each under 500 characters, are in [docs/APPLICATION_NOTES.md](docs/APPLICATION_NOTES.md). They are drafts. Edit them into your own words before you submit. The notes file records the character count of each paragraph.
-
-- **What is the project?** A local Python todo CLI, used to practice how a small open-source repo is put together. It is not deployed, and it has no usage figures to cite.
-- **Why open source it?** So a reviewer can clone it, run the tests, and check the behavior against the README and the commit history.
-- **What did the work practice?** argparse, a JSON file, pytest, GitHub Actions, and writing the project status in plain language.
-- **Is it in production?** No production use is claimed.
-- **How can other people contribute?** See [CONTRIBUTING.md](CONTRIBUTING.md). Small fixes, tests, and doc corrections fit this repo.
 
 ### Still open
 
