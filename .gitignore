@@ -1,5 +1,13 @@
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+venv/
 todo.json
 .pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.env
+.todo-*.tmp
